@@ -10,9 +10,9 @@
 #   2. Die Input Datei (standardmäßig data.txt) mit dem Text          #
 #   und den Akkorden bereitstellen. Die Akkorde sollen direkt         #
 #   vor die Silbe auf der sie angeschlagen werden in eckige           #
-#   Klammern gesetzt werden. (zB [a]Roter Mond, [G]überm              #
-#   Silbersee) Die Erste Zeile ist die Überschrift und die            #
-#   Beispielhaft ist die Datei data.txt auch schon befüllt            #
+#   Klammern gesetzt werden (zB [a]Roter Mond, [G]überm               #
+#   Silbersee). Die Erste Zeile ist die Überschrift.                  #
+#   Beispielhaft ist die Datei data.txt auch schon beschrieben        #
 #                                                                     #
 #   3. Das Skript ausführen                                           #
 #                                                                     #
