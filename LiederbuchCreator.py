@@ -17,7 +17,7 @@
 #   3. Das Skript ausführen                                           #
 #                                                                     #
 #   4. In der Textdatei alle Dollarzeichen ($) mit Leerzeichen        #
-#   ersetzen und die Absätze so groß machen, dass alles auf           #
+#   ersetzen und die Anzahl der Absätze anpassen, dass alles auf      #
 #   maximal 2 Seiten passt, aber trotzdem gut zu lesen ist.           #
 #   Dabei auf eventuelle Fehler prüfen                                #
 #                                                                     #
