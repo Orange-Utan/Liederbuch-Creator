@@ -31,11 +31,14 @@ LiederInputName = "data.txt" # Pfad von der Input-Datei
 
 #################### Ab hier nichts mehr ändern ######################
 
-from odf.opendocument import OpenDocumentText
-from odf.style import (Style, TextProperties, ParagraphProperties,
-                       ListLevelProperties, TabStop, TabStops)
-from odf.text import (H, P, Span, List, ListItem, ListStyle, ListLevelStyleNumber,
-                      ListLevelStyleBullet)
+try:
+    from odf.opendocument import OpenDocumentText
+    from odf.style import (Style, TextProperties, ParagraphProperties,
+                           ListLevelProperties, TabStop, TabStops)
+    from odf.text import (H, P, Span, List, ListItem, ListStyle, ListLevelStyleNumber,
+                          ListLevelStyleBullet)
+except:
+    print("Fehler: odfpy wurde nicht korrekt installiert")
 
 charWidth = {
     " ": 4.4453125,
